@@ -19,7 +19,7 @@
             android:layout_marginTop="60dp"
             android:layout_marginBottom="20dp"
             android:layout_marginLeft="20dp"
-            android:src="@drawable/d" />
+            android:src="@drawable/food" />
 
 
         <LinearLayout
@@ -34,7 +34,7 @@
             android:orientation="horizontal">
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/capucinno"
+                android:id="@+id/burger"
                 android:layout_width="175dp"
                 android:layout_height="212dp"
                 android:layout_margin="10dp"
@@ -52,13 +52,13 @@
                         android:layout_width="64dp"
                         android:layout_height="64dp"
                         android:padding="10dp"
-                        android:src="@drawable/ic_cappuccino" />
+                        android:src="@drawable/ic_burger" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
-                        android:text="Cappuccino"
+                        android:text="Burger"
                         android:textStyle="bold" />
 
                     <View
@@ -67,13 +67,7 @@
                         android:layout_margin="10dp"
                         android:background="@color/lightgray" />
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:padding="5dp"
-                        android:text="Double espresso"
-                        android:textColor="@android:color/darker_gray" />
+
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -88,7 +82,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/espresso"
+                android:id="@+id/burgerdouble"
                 android:layout_width="175dp"
                 android:layout_height="212dp"
                 android:layout_margin="10dp"
@@ -106,13 +100,13 @@
                         android:layout_width="64dp"
                         android:layout_height="64dp"
                         android:padding="10dp"
-                        android:src="@drawable/ic_espresso" />
+                        android:src="@drawable/ic_burgerdouble" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
-                        android:text="Espresso"
+                        android:text="Burger double beef"
                         android:textStyle="bold" />
 
                     <View
@@ -121,19 +115,13 @@
                         android:layout_margin="10dp"
                         android:background="@color/lightgray" />
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:padding="5dp"
-                        android:text="Espresso , Milk"
-                        android:textColor="@android:color/darker_gray" />
+
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="5dp"
-                        android:text="15K"
+                        android:text="25K"
                         android:textStyle="bold" />
 
 
@@ -155,7 +143,7 @@
             android:orientation="horizontal">
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/bag"
+                android:id="@+id/chips"
                 android:layout_width="175dp"
                 android:layout_height="212dp"
                 android:layout_margin="10dp"
@@ -173,13 +161,13 @@
                         android:layout_width="64dp"
                         android:layout_height="64dp"
                         android:padding="10dp"
-                        android:src="@drawable/ic_coffee_bag" />
+                        android:src="@drawable/ic_chips" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
-                        android:text="Coffe bag"
+                        android:text="Chips"
                         android:textStyle="bold" />
 
                     <View
@@ -188,19 +176,13 @@
                         android:layout_margin="10dp"
                         android:background="@color/lightgray" />
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:padding="5dp"
-                        android:text="Double espresso"
-                        android:textColor="@android:color/darker_gray" />
+
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="5dp"
-                        android:text="15K"
+                        android:text="10K"
                         android:textStyle="bold" />
 
 
@@ -209,7 +191,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/pot"
+                android:id="@+id/kebab"
                 android:layout_width="175dp"
                 android:layout_height="212dp"
                 android:layout_margin="10dp"
@@ -227,13 +209,13 @@
                         android:layout_width="64dp"
                         android:layout_height="64dp"
                         android:padding="10dp"
-                        android:src="@drawable/ic_coffee_pot" />
+                        android:src="@drawable/ic_kebab" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
-                        android:text="Coffe pot"
+                        android:text="Kebab"
                         android:textStyle="bold" />
 
                     <View
@@ -242,13 +224,6 @@
                         android:layout_margin="10dp"
                         android:background="@color/lightgray" />
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:padding="5dp"
-                        android:text="Espresso , Milk"
-                        android:textColor="@android:color/darker_gray" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -274,7 +249,7 @@
             android:orientation="horizontal">
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/cup"
+                android:id="@+id/noodle"
                 android:layout_width="175dp"
                 android:layout_height="212dp"
                 android:layout_margin="10dp"
@@ -292,13 +267,13 @@
                         android:layout_width="64dp"
                         android:layout_height="64dp"
                         android:padding="10dp"
-                        android:src="@drawable/ic_coffee_cup" />
+                        android:src="@drawable/ic_noodles" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
-                        android:text="Coffe cup"
+                        android:text="Noodle"
                         android:textStyle="bold" />
 
                     <View
@@ -307,19 +282,12 @@
                         android:layout_margin="10dp"
                         android:background="@color/lightgray" />
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:padding="5dp"
-                        android:text="Double espresso"
-                        android:textColor="@android:color/darker_gray" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="5dp"
-                        android:text="15K"
+                        android:text="18K"
                         android:textStyle="bold" />
 
 
@@ -328,7 +296,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/icec"
+                android:id="@+id/pizzas"
                 android:layout_width="175dp"
                 android:layout_height="212dp"
                 android:layout_margin="10dp"
@@ -346,13 +314,13 @@
                         android:layout_width="64dp"
                         android:layout_height="64dp"
                         android:padding="10dp"
-                        android:src="@drawable/ic_ice_coffee" />
+                        android:src="@drawable/ic_pizza_slice" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
-                        android:text="Ice coffe"
+                        android:text="Pizza slice"
                         android:textStyle="bold" />
 
                     <View
@@ -361,13 +329,7 @@
                         android:layout_margin="10dp"
                         android:background="@color/lightgray" />
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:padding="5dp"
-                        android:text="Espresso , Milk"
-                        android:textColor="@android:color/darker_gray" />
+
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -394,7 +356,7 @@
             android:orientation="horizontal">
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/coffeefilter"
+                android:id="@+id/sausage"
                 android:layout_width="175dp"
                 android:layout_height="212dp"
                 android:layout_margin="10dp"
@@ -412,13 +374,13 @@
                         android:layout_width="64dp"
                         android:layout_height="64dp"
                         android:padding="10dp"
-                        android:src="@drawable/ic_coffee" />
+                        android:src="@drawable/ic_sausage" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
-                        android:text="Coffe filter"
+                        android:text="Sausage"
                         android:textStyle="bold" />
 
                     <View
@@ -427,13 +389,7 @@
                         android:layout_margin="10dp"
                         android:background="@color/lightgray" />
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:padding="5dp"
-                        android:text="Double espresso"
-                        android:textColor="@android:color/darker_gray" />
+
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -448,7 +404,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/coffeee"
+                android:id="@+id/waffle"
                 android:layout_width="175dp"
                 android:layout_height="212dp"
                 android:layout_margin="10dp"
@@ -466,13 +422,13 @@
                         android:layout_width="64dp"
                         android:layout_height="64dp"
                         android:padding="10dp"
-                        android:src="@drawable/ic_coffeee" />
+                        android:src="@drawable/ic_waffle" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
-                        android:text="Coffe"
+                        android:text="Waffle"
                         android:textStyle="bold" />
 
                     <View
