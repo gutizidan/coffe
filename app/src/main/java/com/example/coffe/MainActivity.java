@@ -101,26 +101,26 @@ public class MainActivity extends AppCompatActivity {
         return true;
     }
 
-    //    public boolean onCreateOptionsMenu(Menu menu) {
-//        getMenuInflater().inflate(R.menu.menu_main, menu);
-//        return super.onCreateOptionsMenu(menu);
-//    }
-//
-//    public boolean onOptionsItemSelected(MenuItem item) {
-//        setMode(item.getItemId());
-//        return super.onOptionsItemSelected(item);
-//    }
-    public void showPopup(View v) {
-        PopupMenu popup = new PopupMenu(this, v);
-        MenuInflater inflater = popup.getMenuInflater();
-        inflater.inflate(R.menu.menu_main, popup.getMenu());
-        popup.show();
-    }
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
+        public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu_main, menu);
-        return true;
+        return super.onCreateOptionsMenu(menu);
     }
+
+    public boolean onOptionsItemSelected(MenuItem item) {
+        setMode(item.getItemId());
+        return super.onOptionsItemSelected(item);
+    }
+//    public void showPopup(View v) {
+//        PopupMenu popup = new PopupMenu(this, v);
+//        MenuInflater inflater = popup.getMenuInflater();
+//        inflater.inflate(R.menu.menu_main, popup.getMenu());
+//        popup.show();
+
+//    public boolean onCreateOptionsMenu(Menu menu) {
+//        // Inflate the menu; this adds items to the action bar if it is present.
+//        getMenuInflater().inflate(R.menu.menu_main, menu);
+//        return true;
+
 //    public void setMode(int selectedMode) {
 //        switch (selectedMode) {
 //            case R.id.profile:
@@ -135,21 +135,25 @@ public class MainActivity extends AppCompatActivity {
 //    }
 
 
-    public boolean onMenuItemClick(MenuItem item) {
-        int id = item.getItemId();
+//public boolean onCreateOptionsMenu(Menu menu) {
+//        getMenuInflater().inflate(R.menu.menu_main, menu);
+//        return super.onCreateOptionsMenu(menu);
+//        }
+//
+//public boolean onOptionsItemSelected(MenuItem item) {
+//        setMode(item.getItemId());
+//        return super.onOptionsItemSelected(item);
+//        }
 
-        //noinspection SimplifiableIfStatement
+public void setMode(int selectedMode) {
+        switch (selectedMode) {
+        case R.id.profiler:
+            Intent home=new Intent(getApplicationContext(), profile.class);
+            startActivity(home);
 
-        if (id == R.id.profile) {
+        break;
 
-            Intent intent = new Intent(this,profile.class);
-            this.startActivity(intent);
-            return true;
         }
-
-
-
-        return super.onOptionsItemSelected(item);
-    }
+        }
 }
 
