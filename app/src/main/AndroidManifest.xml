@@ -11,7 +11,8 @@
         android:theme="@style/AppTheme">
         <activity android:name=".profile"></activity>
         <activity android:name=".cappucino" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
